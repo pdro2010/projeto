@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="style.css">
+</style>
+ 
+</head>
+<body>
+
+    <div class="container">
+        <form action="#">
+          <div class="row">
+          <div class="caixa-1">
+              <label for="transacao">Tipo de Transação</label>
+             <div class="caixa-2">
+              <select id="transacao" name="transacao">
+                <option value="venda"  >Venda</option>
+                <option value="compra"  >Compra</option>
+                 
+              </select>
+            </div>
+            
+          </div>
+          <div class="row">
+             <div class="caixa-1">
+              <label for="tmercadoria">Tipo de Mercadoria</label>
+            </div >
+            <div class="caixa-2">
+              <input type="text" id="tmercadoria" name="mercadoria" placeholder="Input"required>
+            </div>
+            <div class="row">
+            <div class="caixa-1">
+              <label for="valor">Valor</label>
+            </div>
+            <div class="caixa-2">
+              <input type="text" id="valor" name="valor" placeholder="R$0,00" required>
+            </div>
+          </div>
+          
+            <br/><br/>
+           
+          <div class="row">
+            <button type="text" id="adionar" class="adicionar"  required >Adicionar Transação </button>
+             
+          </div>
+            
+        </form>
+        
+      </div>
+       
+      <table class="tabelaextrato" >
+        <p class="ext2">Extrato de Transação   </p>
+             
+        <tr>
+          <th class="mc1" >Mercadoria</th>
+          <th  class="v1">Valor</th>
+            
+        </tr>
+        <tr>
+          <td class="loremi"> +  Lorem ipsum dolor sit amet consectetur</td>
+          <td  class="dozenove"> R$ 12.999,99</td>
+           
+        </tr>
+        <tr>
+          <td class="quisn"> -  Quis nostrud exercitation</td>
+          <td class="novenove" >  R$ 99,99   </td>
+           
+        </tr>
+        <tr>
+          <td class="loremp" > +  Lorem ipsum</td> 
+          <td  class="nv">    R$ 9,99</td>
+           
+        </tr>
+        
+          <tr>
+          <td class="total">
+          <p class="ptotal">Total</p> </td>
+          <td class="somat" >   R$ 12.909,99</td>
+                         
+           
+        </tr>
+         </tr>
+        
+          <tr>
+            
+          <td class="lucro" style="text-align: right;"> [LUCRO]   </td>              
+           
+        </tr>
+       
+      </table>
+         
+      
+      
+          </main>
+          <footer>
+            Pedro Dias @2022
+          </footer>
+        </body>
+      </html>
+      
